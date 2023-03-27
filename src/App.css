@@ -33,37 +33,34 @@
   display: flex;
   justify-content: center;
   /* border: solid red; */
-  width: 50vw; 
-   height: 500px;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  height: 500px;
    font-size: 3em;
    position: relative;
    bottom: 500px;
    overflow-wrap: break-word;
-   width: 50vw;
-  height: 60vh;
-  max-width: 600px;
-
+   border: solid;
   
 }
 .input1{
   position: absolute;
   overflow-wrap: break-word;
   width: 50vw;
-  
-
+  height: fit-content;
+  left:110px;
 
 }
 .input2{
   position: absolute;
   overflow-wrap: break-word;
-  width: 50vw;
-
   top:330px;
- 
   height: fit-content;
 }
+
 .buttons{
-  
+  margin: 5%;
   /* border: solid orange; */
 }
 .upload{
