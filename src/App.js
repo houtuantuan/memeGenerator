@@ -68,7 +68,7 @@ function exportToPng(){
     e.target.reset();
     setInput1(e.target.value);
     setInput2(e.target.value);
-    setImages([{url:"https://i.imgflip.com/30b1gx.jpg"}])
+    // setImages([{url:"https://i.imgflip.com/30b1gx.jpg"}])
     setNumber(0);
 }
   return (
