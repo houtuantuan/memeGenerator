@@ -1,37 +1,55 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App{
   display: flex;
-  width: 50vw; 
-   height: 60vh;
-  border: solid;
+  width: 80%; 
+   height: 500px;
+  /* border: solid pink; */
   margin: 5%;
+  max-width: 600px;
+
 }
 
 .image{
-  width: 50vw;
-  height: 60vh;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  height: 500px;
   
 }
 .form{
-  margin: 15%;
-  border: solid;
+  padding-left: 5%;
+  /* border: solid; */
+  width: 400px; 
+}
+.inputField{
+  margin: 5%;
 }
 .input{
   display: flex;
   justify-content: center;
   /* border: solid red; */
   width: 50vw; 
-   height: 60vh;
+   height: 500px;
    font-size: 3em;
    position: relative;
-   bottom: 540px;
+   bottom: 500px;
    overflow-wrap: break-word;
    width: 50vw;
   height: 60vh;
+  max-width: 600px;
+
+  
 }
 .input1{
   position: absolute;
   overflow-wrap: break-word;
   width: 50vw;
+  
 
 
 }
@@ -45,5 +63,9 @@
   height: fit-content;
 }
 .buttons{
-  margin-left: 25%;
+  
+  /* border: solid orange; */
+}
+.upload{
+  margin-left: 10%;
 }
