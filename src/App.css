@@ -1,0 +1,49 @@
+.App{
+  display: flex;
+  width: 50vw; 
+   height: 60vh;
+  border: solid;
+  margin: 5%;
+}
+
+.image{
+  width: 50vw;
+  height: 60vh;
+  
+}
+.form{
+  margin: 15%;
+  border: solid;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  /* border: solid red; */
+  width: 50vw; 
+   height: 60vh;
+   font-size: 3em;
+   position: relative;
+   bottom: 540px;
+   overflow-wrap: break-word;
+   width: 50vw;
+  height: 60vh;
+}
+.input1{
+  position: absolute;
+  overflow-wrap: break-word;
+  width: 50vw;
+
+
+}
+.input2{
+  position: absolute;
+  overflow-wrap: break-word;
+  width: 50vw;
+
+  top:330px;
+ 
+  height: fit-content;
+}
+.buttons{
+  margin-left: 25%;
+}
