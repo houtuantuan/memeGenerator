@@ -1,68 +1,46 @@
-.container{
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  justify-content: center;
 }
 
-.App{
-  display: flex;
-  width: 80%; 
-   height: 500px;
-  /* border: solid pink; */
-  margin: 5%;
-  max-width: 600px;
-
-}
-
-.image{
+.image {
   width: 100%;
-  max-width: 600px;
-  min-width: 300px;
-  height: 500px;
-  
+  border: solid orange;
 }
-.form{
-  padding-left: 5%;
-  /* border: solid; */
-  width: 400px; 
+
+.inputField {
+  margin: 5px;
+  border: solid;
 }
-.inputField{
-  margin: 5%;
-}
-.input{
+.input {
   display: flex;
   justify-content: center;
-  /* border: solid red; */
-  width: 100%;
-  max-width: 600px;
-  min-width: 300px;
-  height: 500px;
-   font-size: 3em;
-   position: relative;
-   bottom: 500px;
-   overflow-wrap: break-word;
-   border: solid;
-  
-}
-.input1{
-  position: absolute;
+  border: solid red;
+  height: 80%;
+  font-size: 3em;
+  position: relative;
+  bottom: 430px;
   overflow-wrap: break-word;
-  width: 50vw;
-  height: fit-content;
-  left:110px;
-
-}
-.input2{
-  position: absolute;
-  overflow-wrap: break-word;
-  top:330px;
-  height: fit-content;
 }
 
-.buttons{
-  margin: 5%;
-  /* border: solid orange; */
+.input1 {
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 20px;
+  height: fit-content;
+  left: 180px;
+  border: solid green;
 }
-.upload{
-  margin-left: 10%;
+.input2 {
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 280px;
+  height: fit-content;
+  border: solid gray;
+}
+.form {
+  padding-left: 15px;
+  border: solid;
+  width: auto;
 }
